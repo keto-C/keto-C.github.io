@@ -1,0 +1,105 @@
+.tasks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    height: auto;
+    width: 20vw;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.box{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.labeli{
+    display: flex;
+    height: auto;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"]{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-color: lightgray;
+    font-size: 16px;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 4px;
+    border: 2px solid lightgray;
+}
+#push{
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    padding: 4px;
+    height: 4.6vh;
+}
+#push:hover{
+    background-color: lightcoral;
+    border-color: lightcoral;
+    cursor: pointer;
+}
+label{
+    /* margin-top: 55px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline;
+}
+body{
+    background-color:rgb(231, 231, 231);
+}
+.task{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+.delete{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid red;
+    padding: 4px;
+    height: 4.6vh;
+    /* margin-left: 25px; */
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9px;
+    cursor: pointer;
+}
+.delete:hover{
+    background-color: rgb(210, 3, 3);
+    border: 2px solid rgb(210, 3, 3);
+}
+p{
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.newTasks{
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+}
+input[type="checkbox"]{
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    padding: 35%;
+}
+input[type=checkbox]:checked + p {
+    /* font-weight: bold;
+    color: red; */
+    text-decoration:line-through;
+  }
