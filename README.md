@@ -1,3 +1,4 @@
-To view the functionality of the website, please kindly download the zip file of the project and unzip it.
+To view the functionality of the website, please move over to the deployments section of the repository
+and click the link provided under the github-pages
 
-later, please open the 'hw4.html' in chrome and test it. =)
+enjoy =)
